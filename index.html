@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+    <script src="js/confetti.js"></script>
+    <title>Pokemon Game</title>
+  </head>
+  <body>
+    <main>
+      <section class="section-one">
+        <div class="titleContainer">
+          <img src="img/icon.png" class="icon" alt="" />
+          <h1>Memorize Pokemon</h1>
+        </div>
+        <table>
+          <tr>
+            <td><button id="0" onclick="show(0)"></button></td>
+            <td><button id="1" onclick="show(1)"></button></td>
+            <td><button id="2" onclick="show(2)"></button></td>
+            <td><button id="3" onclick="show(3)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="4" onclick="show(4)"></button></td>
+            <td><button id="5" onclick="show(5)"></button></td>
+            <td><button id="6" onclick="show(6)"></button></td>
+            <td><button id="7" onclick="show(7)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="8" onclick="show(8)"></button></td>
+            <td><button id="9" onclick="show(9)"></button></td>
+            <td><button id="10" onclick="show(10)"></button></td>
+            <td><button id="11" onclick="show(11)"></button></td>
+          </tr>
+          <tr>
+            <td><button id="12" onclick="show(12)"></button></td>
+            <td><button id="13" onclick="show(13)"></button></td>
+            <td><button id="14" onclick="show(14)"></button></td>
+            <td><button id="15" onclick="show(15)"></button></td>
+          </tr>
+        </table>
+      </section>
+      <section class="section-two">
+        <h2 class="stadistics" id="hits"></h2>
+        <h2 class="stadistics" id="time"></h2>
+        <h2 class="stadistics" id="movements"></h2>
+        <div class="button-container">
+          <img
+            class="reloadButton"
+            id="reload"
+            src="img/reload.png"
+            onclick="reload()"
+            alt=""
+          />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Made by
+        <a class="name" href="https://vrdeveloper.netlify.app/" target="_blank"
+          >Victor Reyes.</a
+        >
+      </p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

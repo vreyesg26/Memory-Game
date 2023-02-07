@@ -1,0 +1,125 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: sans-serif;
+  color: white;
+}
+
+main {
+    width: 730px;
+    margin: 30px auto 50px;
+    display: flex;
+    align-items: center;
+}
+
+.section-one {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    background: none;
+    width: 30px;
+    padding: 0;
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+td > button {
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button > img {
+    width: 80px;
+    height: 80px;
+    object-fit: scale-down;
+}
+
+td > button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.section-two {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+    padding: 0 20px;
+}
+
+.stadistics {
+    display: flex;
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.reloadButton {
+    display: none;
+    border-radius: 5px; 
+    background: white;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+.reloadButton:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+footer {
+    text-align: center;
+}
+
+.name {
+    font-weight: bolder;
+    cursor: pointer;
+    color: white;
+}
+
+#confetti-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
